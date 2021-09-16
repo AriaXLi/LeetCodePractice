@@ -1,5 +1,3 @@
-package LinkedListCycleII;
-
 public class ListNode {
     int val;
     ListNode next;
