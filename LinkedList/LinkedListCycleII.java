@@ -1,6 +1,7 @@
 import java.util.*;  
 
-//Link: https://leetcode.com/problems/linked-list-cycle-ii/
+// Link: https://leetcode.com/problems/linked-list-cycle-ii/
+// Difficulty: Medium
 // Hash Table solution
 // Time complexity: O(n)
 // Space complexity: O(n)

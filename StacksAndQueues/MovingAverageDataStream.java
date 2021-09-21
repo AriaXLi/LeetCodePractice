@@ -1,4 +1,5 @@
-//Problem: Moving Average from Data Stream
+// Problem: Moving Average from Data Stream
+// Difficulty: Easy
 // https://leetcode.com/problems/moving-average-from-data-stream/
 
 	class MovingAverageDataStream {
@@ -11,9 +12,11 @@
 
   public double next(int val) {
     ++count;
+    
     // calculate the new sum by shifting the window
     int tail = (head + 1) % size;
     windowSum = windowSum - queue[tail] + val;
+    
     // move on to the next head
     head = (head + 1) % size;
     queue[head] = val;
