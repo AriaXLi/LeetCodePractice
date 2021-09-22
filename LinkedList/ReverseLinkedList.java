@@ -2,6 +2,7 @@
 // Difficulty:
 // Time complexity: O(n) --> whatever the length of the initial LinkedList is
 // Space complexty: O(1)
+
 class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode curr = head;
