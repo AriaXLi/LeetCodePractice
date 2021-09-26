@@ -26,7 +26,7 @@ class StringToInteger {
             return retNum;
         }
         else {
-            return Integer.valueOf(ret);   
+            return Integer.valueOf(ret);
         }
     }
 }
