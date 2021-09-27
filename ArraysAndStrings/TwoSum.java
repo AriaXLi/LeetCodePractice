@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 // Link: https://leetcode.com/problems/two-sum/
 // Difficulty: Easy
 // Time complexity: O(n)
