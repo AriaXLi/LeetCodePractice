@@ -2,7 +2,7 @@
 // Difficulty: Easy
 
 class HappyNumber {
-    
+
     public int getNext(int n) {
         int total = 0;
         while (n > 0) {
@@ -12,7 +12,7 @@ class HappyNumber {
         }
         return total;
     }
-    
+
     public boolean isHappy(int n) {
         Set<Integer> checkHappy = new HashSet<>();
         while (n != 1 && !checkHappy.contains(n)) {
