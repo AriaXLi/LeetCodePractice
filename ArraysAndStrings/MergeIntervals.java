@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 // Link: https://leetcode.com/problems/merge-intervals/
 // Difficulty: Medium
-// Time complexity:
+// Time complexity: O(nlogn) --> the logn comes from sort
 // Space complexity:
 
 class MergeIntervals {
