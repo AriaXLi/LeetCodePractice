@@ -13,7 +13,7 @@ class HappyNumber {
         return total;
     }
 
-    public boolean isHappy(int n) {
+    public boolean isHappy(int n) {    
         Set<Integer> checkHappy = new HashSet<>();
         while (n != 1 && !checkHappy.contains(n)) {
             checkHappy.add(n);
