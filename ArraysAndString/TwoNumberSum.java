@@ -1,5 +1,10 @@
 import java.util.*;
 
+// Link: https://www.algoexpert.io/questions/Two%20Number%20Sum
+// Difficulty: Easy
+// Time complexity: O(n)
+// Space complexity: O(n)
+
 class TwoNumberSum {
     public static int[] twoNumberSum(int[] array, int targetSum) {
     
